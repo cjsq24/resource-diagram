@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Form = ({ menuData, onSave, onCancel, options }) => {
+const Form = ({ menuData, onSave, onCancel }) => {
   const [form, setForm] = useState({
     id: menuData?.id,
     title: menuData?.title || "",
